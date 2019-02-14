@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <h1>Hello CodeSandbox</h1>
       <ActionButton actiontext="Start Normal Game!" />
+      <ActionButton actiontext="Start Free Game!" />
     </div>
   );
 }
