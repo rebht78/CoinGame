@@ -1,2 +1,0 @@
-# CoinGame
-Created with CodeSandbox
