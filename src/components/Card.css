@@ -1,8 +1,18 @@
-.card {
+.card-section {
   width: 640px;
   height: 640px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   perspective: 1000px;
+}
+.card {
+  width: calc(25% - 10px);
+  height: calc(33.333% - 10px);
+  margin: 5px;
+  position: relative;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
